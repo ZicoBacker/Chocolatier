@@ -8,22 +8,22 @@ class Core{
     {
         $url = $this->getURL();
 
-        if (file_exists('../app/controllers/' . ucwords($url[0]) . '.php')) {
+        // if (file_exists('../app/controllers/' . ucwords($url[0]) . '.php')) {
 
-            $this->currentController = ucwords($url[0]);
-            unset($url[0]);
-        }
+            $this->currentController = 'home';
+            // unset($url[0]);
+        // }
 
         require_once '../app/controllers/' . $this->currentController . '.php';
         
         $this->currentController = new $this->currentController();
 
-        if (isset($url[1]))
+        if (isset($url[0]))
         {
-            if (method_exists($this->currentController, $url[1]))
+            if (method_exists($this->currentController, $url[0]))
             {
-                $this->currentMethod = $url[1];
-                unset($url[1]);
+                $this->currentMethod = $url[0];
+                unset($url[0]);
             }
         }
 
@@ -45,7 +45,7 @@ class Core{
             return $url;
         }
         else {
-            return array('home', 'index');
+            return array('Home', 'index');
         }
     }
 }
