@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="">
 </head>
 <body>
 
@@ -14,7 +14,7 @@
 
 <div class="container">
         <div class="row">
-            <div class="col-md-6" id="container1">
+            <div class="col-md-6" id="container_1">
 <h1>Choclatier Academie</h1>
 
 <h1> <hr> Chocaltier academie Niveau 2 | BOL | 2-3 JR </hr></h1>
@@ -49,7 +49,7 @@
 </div>
 </div>
 <div class="row">
-<div class="col-md-6" id="container2">
+<div class="col-md-6" id="container_2">
 <h4> Praktish informatie</h4>
 <p>duur</p> <br>
 <p>3 jaar</p> <hr>
