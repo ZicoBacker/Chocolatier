@@ -9,7 +9,7 @@
 <body>
 
 
-<img id = "koekje1" src="IMG/koekjeStart.png">
+<img id = "koekje1" src="IMG/AcademiaCookie1.png">
 
 
 <div class="container">
@@ -55,7 +55,7 @@
 <p>3 jaar</p> <hr>
 </div>
 </div>
-<img id="Div3" src="IMG/div3.png" alt="">
+<img id="Div3" src="IMG/Academia2.png" alt="">
 
 
 
