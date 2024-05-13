@@ -1,0 +1,12 @@
+{
+    "name": "school/project-p2-school",
+    "autoload": {
+        "psr-4": {
+            "School\\": "./"
+        }
+    },
+    "require": {
+        "ext-pdo": "*",
+        "vlucas/phpdotenv": "^5.6"
+    }
+}

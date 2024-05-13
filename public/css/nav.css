@@ -1,0 +1,117 @@
+body {
+  font-family: "Arial Narrow Bold", sans-serif;
+  position: relative;
+  margin: 0;
+  padding: 0;
+}
+
+.nav-bar {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  list-style: none;
+  background-color: #ffecd4;
+  position: sticky;
+  top: 0;
+  box-sizing: border-box;
+  margin-top: 0;
+  margin: 0;
+  padding: 0;
+  z-index: 1000;
+}
+.nav-bar .logo img {
+  width: 80%;
+  height: 80%;
+  padding: 5px;
+}
+.nav-bar .menu {
+  display: flex;
+  padding: 10px;
+}
+.nav-bar .menu li {
+  padding-left: 7vh;
+}
+.nav-bar .menu li .button-nav {
+  background-color: #ffb48c;
+  color: #000000;
+  padding: auto;
+  border-radius: 5px;
+  text-transform: uppercase;
+  transition: 0.18s ease-in-out;
+  text-decoration: none;
+  margin-left: 10px;
+  padding: 10px;
+}
+.nav-bar .menu li .button-nav:hover {
+  background-color: #e6a17c;
+}
+.nav-bar .menu li .Links {
+  text-decoration: none;
+  color: #2B1A12;
+  text-align: center;
+  transition: 0.18s ease-in-out;
+  position: relative;
+  text-transform: uppercase;
+}
+.nav-bar .menu li .Links::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 0;
+  height: 1px;
+  background-color: #2B1A12;
+  transition: 0.2s ease-in-out;
+}
+.nav-bar .menu li .Links:hover::after {
+  width: 100%;
+}
+.nav-bar .open-menu, .nav-bar .close-menu {
+  position: absolute;
+  color: #000000;
+  cursor: pointer;
+  font-size: 1.5rem;
+  display: none;
+}
+.nav-bar .open-menu.open-menu, .nav-bar .close-menu.open-menu {
+  top: 50%;
+  right: 20px;
+  transform: translateY(-50%);
+}
+.nav-bar .open-menu.close-menu, .nav-bar .close-menu.close-menu {
+  top: 20px;
+  right: 20px;
+}
+.nav-bar #check {
+  display: none;
+}
+@media (max-width: 840px) {
+  .nav-bar .menu {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 76%;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    right: -100%;
+    background-color: #a1745b;
+    transition: all 0.2s ease-in-out;
+    z-index: 100;
+  }
+  .nav-bar .menu li {
+    margin-top: 40px;
+  }
+  .nav-bar .menu li a {
+    padding: 10px;
+  }
+  .nav-bar .open-menu, .nav-bar .close-menu {
+    display: block;
+  }
+  .nav-bar #check:checked ~ .menu {
+    right: 0;
+  }
+}
+
+/*# sourceMappingURL=nav.css.map */
