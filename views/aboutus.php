@@ -1,11 +1,12 @@
-<?php require_once __DIR__ . '/partials/_header.php'; ?>
-
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/css/aboutus.css">
+</head>
 <body> 
-
-    <div class="background-image">
-        <img src="img/BakkerImage.png" alt="BakkerImage">
-    </div>
-
     <div class="container">
         <div class="row">
             <div class="col-md-6" id="container1">     
@@ -26,9 +27,12 @@
                 <p>We vinden het belangrijk dat je naast je opleiding ook vaardigheden</p> <p>leert die je helpen in deze wereld die continu verandert. Daarom leren wij je meer dan alleen een vak. Zo ben je straks een goed opgeleide professional die klaar is om in de praktijk aan de slag te gaan.</p>
             </div>
         </div>
-    </div>
 
-     <div class=container2>
+      <div class="background-image">
+        <img src="/img/BakkerImage.png" alt="BakkerImage">
+     </div>
+
+        <div class=container2>
             <div class="row">
                 <div class="col-md-6" id="container2">
                     <ul>
@@ -42,6 +46,5 @@
             </div>
         </div>
     </body>
-
-<?php require_once __DIR__ . '/partials/_footer.php'; ?>
+</html>
 
