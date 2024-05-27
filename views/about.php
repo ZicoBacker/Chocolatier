@@ -32,11 +32,11 @@
             <div class="row">
                 <div class="col-md-6" id="container2">
                     <ul>
-                    <li id=loginSch><a href='AcademieInfo.php'></a>Aanmelden opleiding</li>
-                    <li>School</li>
-                    <li>Na School</li>
-                    <li>Sfeer</li>
-                    <li>Volg ons</li>
+                        <li id=login><a href='AcademieInfo.php'>Aanmelden opleidingv</a></li>
+                        <li>School</li>
+                        <li>Na School</li>
+                        <li>Sfeer</li>
+                        <li>Volg ons</li>
                     </ul>
                 </div>
             </div>

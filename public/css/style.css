@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Arial+Narrow+Bold&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+body {
+    @apply font-sans;
+    font-family: 'Arial Narrow Bold', sans-serif;
+    position: relative;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-bar .logo img {
+    width: 80%;
+    height: 80%;
+    padding: 5px;
+}
+
+.nav-bar .menu {
+    @apply flex p-2 fixed top-0 right-0 h-screen w-3/4 bg-[#a1745b] transition-all duration-200 ease-in-out z-100 md:relative md:h-auto md:w-auto md:flex-row md:bg-transparent md:static md:flex;
+}
+
+.nav-bar .menu li {
+    margin-top: 40px;
+}
+
+.nav-bar .menu li a {
+    padding: 10px;
+}
+
+.nav-bar .open-menu,
+.nav-bar .close-menu {
+    @apply absolute text-black cursor-pointer text-2xl md:hidden;
+}
+
+.nav-bar .open-menu {
+    top: 50%;
+    right: 20px;
+    transform: translateY(-50%);
+}
+
+.nav-bar .close-menu {
+    top: 20px;
+    right: 20px;
+}
+
+#check:checked ~ .menu {
+    @apply right-0;
+}
+
+@media (min-width: 840px) {
+    .nav-bar .menu {
+        @apply flex-row h-auto w-auto bg-transparent static flex;
+    }
+    .nav-bar .menu li {
+        margin-top: 0;
+        padding-left: 7vh;
+    }
+    .nav-bar .open-menu,
+    .nav-bar .close-menu {
+        @apply hidden;
+    }
+}
