@@ -8,7 +8,7 @@
   background-color: #BB7E5D;
   text-align: left;
   margin-right: 100px;
-  margin-left: 700px;
+  margin-left: 550px;
   position: relative;
 }
 
@@ -69,12 +69,33 @@
   font-style: italic;
   font-size: 30px;
   padding: 0px;
+<<<<<<< HEAD
   margin-top: 20px;
   background-color: #74462E;
   text-align: left;
   margin-right: 1000px;
+=======
+  margin-top: -117px;
+  background-color: #74462E;
+  text-align: center;
+  margin-right: 0px;
+>>>>>>> 85f1270c560604015d1658ab7b91b42ace05ae93
   margin-left: 0px;
   position: relative;
+}
+
+#container_7 {
+  color: black;
+  font-style: italic;
+  font-size: 30px;
+  border-radius: 10px 0;
+  padding: 0px;
+  margin-top: -10px;
+  background-color: #BB7E5D;
+  text-align: left;
+  margin-right: 100px;
+  margin-left: 550px;
+  
 }
 
 * {

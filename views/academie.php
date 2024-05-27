@@ -9,10 +9,10 @@
 <div class="container">
         <div class="row">
             <div class="col-md-6" id="container_1">
-<h1>Choclatier Academie</h1>
+<h1>Chocolatier Academie</h1>
 
-<h1> <hr> Chocaltier academie Niveau 2 | BOL | 2-3 JR </hr></h1>
-<h2> <hr>Choclatier Academie past bij jou </hr> </h2>
+<h1> <hr> Chocolatier Academie Niveau 2 | BOL | 2-3 JR </hr></h1>
+<h2> <hr>Chocolatier Academie past bij jou </hr> </h2>
     <p>Streef je naar perfectie in elke chocolade creatie die je maakt? </p>
     <p>Ben je gebeten door de passie voor chocolade en zie je overal mogelijkheden </p>
     <P>om jouw droom als chocolatier waar te maken? Als je ja knikt, dan is onze </p>
@@ -20,7 +20,7 @@
     <p>zijn wie je bent en word je gezien. Het draait om jou!</p>
 
 <h2>De opleiding</h2>
-    <p>De opleiding tot choclatier combineert ambacht en ondernemerschap.</p>
+    <p>De opleiding tot Chocolatier combineert ambacht en ondernemerschap.</p>
     <p>Je leert niet alleen de kunst van chocolade maken, maar ook hoe je</p>
     <p>een bloeiend bedrijf opzet. Een goed doordacht bedrijfsplan staat </p>
     <p>centraal in het curriculum. Je ontwikkelt leiderschapsvaardigheden</p>
@@ -62,7 +62,7 @@
         </div>
     </div>
     <div class="row">
-        <div class="col-md-6" id="container_5">
+        <div class="col-md-4" id="container_5">
             <p>Start</p> <br>
             <p>20/08/2025</p> <hr>
         </div>
@@ -72,17 +72,76 @@
     <img id="Div_4" src="IMG/AcademiaCookie3.png" alt="">
     <img id="Div_5" src="IMG/AcademiaCookie4.png" alt="">
 
+
+
     <div class="row">
         <div class="col-md-6" id="container_6">
+            <br>
+        <ul>
+            <li>
                 <p>Academie</p>
-                <hr>
-                <p>locatie</p> 
-                <hr>
-                <p>MHBO</p> 
-                <hr>
-                <p>versnellen</p> 
-                <hr>
-                <p>kosten</p> 
+                <p id="li_2">Chocolatier Academie</p><hr>
+            </li>
+            <li>
+                <p>locatie</p>
+                <p>Daltonlaan 300, Utrecht</p><hr>
+            </li>
+            <li>
+                <p>MHBO</p>
+                <p>Nee</p><hr>
+            </li>
+            <li>
+                <p>versnellen</p>
+                <p>Je kunt deze opleiding versneld afronden.</p><hr>
+            </li>
+            <li>
+                <p>kosten</p>
+                <p>Voor deze opleiding betaal je lesgeld op 1 augustus ouder 
+                bent dan 18 jaar. Verder moet je rekening houden met de aanschaf
+                van een laptop en kosten voor boeken en andere leermiddelen. Daarvoor
+                moet je rekening houden met onderstaande kosten (ongeveer):
+                <br><br> Leerjaar 1: €320,-
+                <br><br> Leerjaar 2: €260,-
+                <br><br> Leerjaar 3: €20,-
+                <br><br> Laptop: €500,-</p>
+            </li>
+        </ul>
+            <br>
+        </div>
+    </div>
+
+
+    <div class="row">
+        <div class="col-md-6" id="container_7">
+        <br>    
+        <h1>Echt iets voor jou?</h1>
+            <p>Ben je gepassioneerd door
+               chocolade en wil je jouw talent 
+                omzetten in een succesvolle carrière?
+                Bij de Chocolatier Academie dagen we
+                je uit. Als je commercieel bent 
+                ingesteld, klantgericht en bereid
+                bent risico's te nemen, ben je hier
+                aan het juiste adres. We moedigen 
+                out-of-the-box denken aan en bieden 
+                je de kans om winstgevende ideeën te
+                realiseren. Als jij het type bent dat
+                graag nieuwe mogelijkheden ontdekt en 
+                zelf de leiding neemt, dan is onze 
+                opleiding precies wat je zoekt!</p>
+                <br><br>
+                <h1>Aanmelden en kennismaken</h1>
+                <p>Na je aanmelding start de kennismaking.
+                    We nodigen je uit voor de verplichte 
+                    kennismakingsactiviteiten en vragen 
+                    je een Digitaal Doorstroom Dossier 
+                    aan te maken. De activiteiten zijn 
+                    bedoeld om jou een nog beter beeld
+                    te geven van de opleiding en het
+                    beroep. En om te kijken of de 
+                    opleiding past bij wat jij wil, 
+                    kan en leuk vindt.</p>
+                <br><br><br>
         </div>
     </div>
 
