@@ -6,9 +6,9 @@
         <img src="img/BakkerImage.png" alt="BakkerImage">
     </div>
 
-    <div class="container">
+    <div class="container-1">
         <div class="row">
-            <div class="col-md-6" id="container1">     
+            <div class="col-md-6" id="container-1">     
                 <h1>Choclatier Academie</h1>
 
                 <h2>Choclatier Academie past bij jou</h2>
@@ -28,9 +28,13 @@
         </div>
     </div>
 
-     <div class=container2>
+    <div class="Map">
+            <img src= "/img/Locatie.png" alt="MapImage">
+        </div>
+
+     <div class=container-2>
             <div class="row">
-                <div class="col-md-6" id="container2">
+                <div class="col-md-6" id="container-2">
                     <ul>
                     <li id=loginSch><a href='AcademieInfo.php'></a>Aanmelden opleiding</li>
                     <li>School</li>

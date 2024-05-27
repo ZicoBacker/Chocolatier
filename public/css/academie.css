@@ -8,7 +8,7 @@
   background-color: #BB7E5D;
   text-align: left;
   margin-right: 100px;
-  margin-left: 700px;
+  margin-left: 550px;
   position: relative;
 }
 
@@ -65,16 +65,30 @@
 }
 
 #container_6 {
-  color: whitesmoke;
+  color: beige;
   font-style: italic;
   font-size: 30px;
-  padding: 10px;
-  margin-top: -120px;
+  padding: 0px;
+  margin-top: 20px;
   background-color: #74462E;
   text-align: left;
-  margin-right: 0px;
+  margin-right: 1000px;
   margin-left: 0px;
   position: relative;
+}
+
+#container_7 {
+  color: black;
+  font-style: italic;
+  font-size: 30px;
+  border-radius: 10px 0;
+  padding: 0px;
+  margin-top: -10px;
+  background-color: #BB7E5D;
+  text-align: left;
+  margin-right: 100px;
+  margin-left: 550px;
+  
 }
 
 * {
