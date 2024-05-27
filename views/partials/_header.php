@@ -6,6 +6,7 @@
     <title><?= isset($title) ? htmlspecialchars($title) : ''; ?> - Academie Choclatier</title>
     <link rel= "stylesheet" href= "https://maxst.icons8.com/vue-static/landings/line-awesome/line-awesome/1.3.0/css/line-awesome.min.css" >
     <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="/css/output.css">
     <?php if($_SERVER['REQUEST_URI'] === '/'): ?><link rel="stylesheet" href="/css/index.css"> <?php endif; ?>   
     <?php if($_SERVER['REQUEST_URI'] === '/Form'): ?><link rel="stylesheet" href="/css/Form.css"> <?php endif; ?>
     <?php if($_SERVER['REQUEST_URI'] === '/Academie'): ?><link rel="stylesheet" href="/css/Academie.css"> <?php endif; ?>
