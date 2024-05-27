@@ -1,15 +1,14 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="/css/aboutus.css">
-</head>
+<?php require_once __DIR__ . '/partials/_header.php'; ?>
+
 <body> 
-    <div class="container">
+
+    <div class="background-image">
+        <img src="img/BakkerImage.png" alt="BakkerImage">
+    </div>
+
+    <div class="container-1">
         <div class="row">
-            <div class="col-md-6" id="container1">     
+            <div class="col-md-6" id="container-1">     
                 <h1>Choclatier Academie</h1>
 
                 <h2>Choclatier Academie past bij jou</h2>
@@ -27,14 +26,15 @@
                 <p>We vinden het belangrijk dat je naast je opleiding ook vaardigheden</p> <p>leert die je helpen in deze wereld die continu verandert. Daarom leren wij je meer dan alleen een vak. Zo ben je straks een goed opgeleide professional die klaar is om in de praktijk aan de slag te gaan.</p>
             </div>
         </div>
+    </div>
 
-      <div class="background-image">
-        <img src="/img/BakkerImage.png" alt="BakkerImage">
-     </div>
+    <div class="Map">
+            <img src= "/img/Locatie.png" alt="MapImage">
+        </div>
 
-        <div class=container2>
+     <div class=container-2>
             <div class="row">
-                <div class="col-md-6" id="container2">
+                <div class="col-md-6" id="container-2">
                     <ul>
                     <li id=loginSch><a href='AcademieInfo.php'></a>Aanmelden opleiding</li>
                     <li>School</li>
@@ -46,5 +46,6 @@
             </div>
         </div>
     </body>
-</html>
+
+<?php require_once __DIR__ . '/partials/_footer.php'; ?>
 
