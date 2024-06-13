@@ -7,7 +7,7 @@
   margin-top: -190px;
   background-color: #BB7E5D;
   text-align: left;
-  margin-right: 100px;
+  margin-right: -300px;
   margin-left: 700px;
   position: relative;
 }
@@ -78,6 +78,20 @@
   text-align: center;
   margin-right: 0px;
   margin-left: 0px;
+  position: relative;
+}
+
+#container_7 {
+  color: black;
+  font-style: italic;
+  font-size: 30px;
+  border-radius: 0 10px;
+  padding: 10px;
+  margin-top: 0px;
+  background-color: #BB7E5D;
+  text-align: left;
+  margin-right: 200px;
+  margin-left: 700px;
   position: relative;
 }
 
