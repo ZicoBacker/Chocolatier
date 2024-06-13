@@ -1,3 +1,15 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.custom-bg {
+    background-color: #FDF4E4;
+}
+.custom-input-bg {
+    background-color: #D2B49B;
+}
+.custom-button-bg {
+    background-color: #F4A460;
+}
+.custom-button-bg:hover {
+    background-color: #E08E3C;
