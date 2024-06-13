@@ -1,6 +1,6 @@
 <?php require_once __DIR__ . '/partials/_header.php' ?>
 
-
+<div class="bg-creme" >
     <div class="relative ">
         <img class="w-full" src="img/Cookie-banner-index.jpg" alt="Cookie Banner">
         <h1 class="absolute inset-0 flex items-center justify-center text-white text-7xl font-strait">Opleiding tot Koekjes bakker</h1>
@@ -32,7 +32,7 @@
         <p class="mt-10 text-3xl px-6 py-4">Als je op zoek bent naar een opleiding in de wereld van het bakken van koekjes, dan is de opleiding Assistent Bakker niveau 2 echt iets voor jou. Studenten Assistent Bakker beginnen in het eerste jaar samen met studenten Zelfstandig Werkend Bakker niveau 3. Dit biedt je een unieke kans om snel vooruit te gaan en je vaardigheden te verdiepen. Bovendien krijg je de ruimte om je eigen ambitie, verantwoordelijkheidsgevoel en vakmanschap te ontwikkelen.</p> 
     </div>
 
-    <div class="w-11/12 p-8 pr-0 mt-8 text-center-left float-right font-strait ">
+    <div class="w-11/12 p-14 pr-0 mt-8 text-center-left float-right font-strait ">
         <h2 class="text-4xl font-bold pl-4 bg-gradient-to-r from-pale bg-opacity-25 rounded-xl py-4">In het kort</h2>
         <div class="grid grid-cols-1 md:grid-cols-2 gap-14 text-2xl bg-sugar p-16 rounded-l-3xl">
             <div class="flex items-center">
@@ -107,7 +107,7 @@
                 </div>
         </div>
     </div>
-
+</div>
 
 
 
