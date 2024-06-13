@@ -31,6 +31,7 @@
             sugar: '#E4E4CC',
             alarm: '#FF0F00',
             pale: '#eab19b',
+            pink: '#F5E4CB',
           }
         },
         screens: {
@@ -42,7 +43,7 @@
     }
   </script>
 </head>
-<body>
+<body class="bg-creme">
 
 <header>
     <?php require_once __DIR__. '/_nav.php'; ?>

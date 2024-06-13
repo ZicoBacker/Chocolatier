@@ -1,13 +1,12 @@
 <?php require_once __DIR__ . '/partials/_header.php' ?>
 
-<body class="bg-creme">
 
-    <div class="relative">
+    <div class="relative ">
         <img class="w-full" src="img/Cookie-banner-index.jpg" alt="Cookie Banner">
         <h1 class="absolute inset-0 flex items-center justify-center text-white text-7xl font-strait">Opleiding tot Koekjes bakker</h1>
     </div>
 
-    <div class="w-full p-14 font-strait ">
+    <div class="w-full p-14 font-strait bg-creme">
         <h1 class="text-6xl font-bold py-10 mb-16 text-center">Is koekjes bakken iets voor jou?</h1>
         <div class="grid grid-cols-2 md:grid-cols-4 gap-6 items-start">
             <div class="col-span-3">
@@ -67,7 +66,7 @@
         </div>
     </div>
 
-    <div class="w-full p-8 pr-0 mt-6 text-center-left float-right font-strait ">
+    <div class="w-full p-8 pr-0 mt-6 text-center-left float-right font-strait bg-creme">
         <h2 class="text-5xl font-bold pl-4 py-8">Vooropleiding</h2>
         <div class="grid grid-cols-1 md:grid-cols-1 gap-10 text-2xl p-4">
             <div class="flex items-center">
@@ -91,7 +90,7 @@
         </div>
     </div>
 
-    <div class="w-full p-8 pr-0 mt-6 text-center-left float-right font-strait ">
+    <div class="w-full p-8 pr-0 mt-6 text-center-left float-right font-strait bg-creme">
         <h2 class="text-5xl font-bold pl-4 py-4">Kennismaken</h2>
             <div class="flex items-center">
                 <div>
@@ -100,7 +99,7 @@
         </div>
     </div>
 
-    <div class="w-full p-8 pr-0 mt-6 text-center-left float-right font-strait ">
+    <div class="w-full p-8 pr-0 mt-6 text-center-left float-right font-strait bg-creme">
         <h2 class="text-5xl font-bold pl-4 py-4">Wat kun je na de opleiding Gespecialiseerd Kok</h2>
             <div class="flex items-center">
                 <div>
@@ -111,6 +110,5 @@
 
 
 
-</body>
 
 <?php require_once __DIR__ . '/partials/_footer.php' ?>
