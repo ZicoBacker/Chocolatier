@@ -36,7 +36,7 @@
             <div class="row">
                 <div class="col-md-6" id="container-2">
                     <ul>
-                        <li id=login><a href='AcademieInfo.php'>Aanmelden opleidingv</a></li>
+                        <li id=login><a href='AcademieInfo.php'>Aanmelden opleiding</a></li>
                         <li>School</li>
                         <li>Na School</li>
                         <li>Sfeer</li>
