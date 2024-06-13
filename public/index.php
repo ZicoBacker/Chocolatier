@@ -17,8 +17,8 @@ switch ($uri) {
     case '/Academie':
         echo $app->academieView();
         break;
-    case '/AboutUs':
-        echo $app->aboutusView();
+    case '/About':
+        echo $app->aboutView();
         break;
     case '/Form':
         echo $app->formView();

@@ -29,9 +29,9 @@ final class Handler extends BaseHandler
         ]);
     }
 
-    public function aboutusView(): string
+    public function aboutView(): string
     {
-        return $this->render('aboutus', [
+        return $this->render('about', [
             'title' => 'Info school'
         ]);
     }
