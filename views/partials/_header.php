@@ -10,7 +10,7 @@
     <?php if($_SERVER['REQUEST_URI'] === '/'): ?><link rel="stylesheet" href="/css/index.css"> <?php endif; ?>   
     <?php if($_SERVER['REQUEST_URI'] === '/Form'): ?><link rel="stylesheet" href="/css/Form.css"> <?php endif; ?>
     <?php if($_SERVER['REQUEST_URI'] === '/Academie'): ?><link rel="stylesheet" href="/css/Academie.css"> <?php endif; ?>
-    <?php if($_SERVER['REQUEST_URI'] === '/AboutUs'): ?><link rel="stylesheet" href="/css/AboutUs.css"> <?php endif; ?>
+    <?php if($_SERVER['REQUEST_URI'] === '/About'): ?><link rel="stylesheet" href="/css/About.css"> <?php endif; ?>
     <?php if($_SERVER['REQUEST_URI'] === '/Game'): ?><link rel="stylesheet" href="/css/game.css"> <?php endif; ?>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
