@@ -18,8 +18,26 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Shadows+Into+Light&display=swap" rel="stylesheet">
     <script src="https://kit.fontawesome.com/06a2eca3f5.js" crossorigin="anonymous"></script>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.16/dist/tailwind.min.css" rel="stylesheet">
+    <style>
+        .custom-bg {
+            background-color: #FDF4E4;
+        }
+        .custom-input-bg {
+            background-color: #D2B49B;
+        }
+        .custom-button-bg {
+            background-color: #F4A460;
+        }
+        .custom-button-bg:hover {
+            background-color: #E08E3C;
+        }
+    </style>
 </head>
-<body>
+<body class= "flex flex-col min-h-screen relative">
+
+
+
 
 <header>
     <?php require_once __DIR__. '/_nav.php'; ?>
