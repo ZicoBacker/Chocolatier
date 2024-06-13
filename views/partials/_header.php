@@ -42,6 +42,21 @@
       }
     }
   </script>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.16/dist/tailwind.min.css" rel="stylesheet">
+    <style>
+        .custom-bg {
+            background-color: #FDF4E4;
+        }
+        .custom-input-bg {
+            background-color: #D2B49B;
+        }
+        .custom-button-bg {
+            background-color: #F4A460;
+        }
+        .custom-button-bg:hover {
+            background-color: #E08E3C;
+        }
+    </style>
 </head>
 <body class="bg-creme">
 

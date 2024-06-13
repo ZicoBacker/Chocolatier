@@ -1,3 +1,31 @@
+<<<<<<< HEAD
+.background-image {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-top: 9vh;
+  width: 100%;
+}
+
+.container-1{
+  display: flex;
+  flex-direction: left;
+  justify-content: center;
+  background: #74462E;
+  border-radius: 0px 60px 60px 0px;
+  margin-right: 120vh;
+  top: 10vh;
+}
+
+.container-2{
+  display: flex;
+  flex-direction: left;
+  justify-content: center;
+  background: #BB7E5D;
+
+}
+=======
 
 
+>>>>>>> b45c5c5308dfcce3b7f8bd667d04c9f9b4072a09
 /*# sourceMappingURL=aboutus.css.map */
