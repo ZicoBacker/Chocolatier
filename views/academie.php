@@ -9,7 +9,7 @@
 <div class="container">
         <div class="row">
             <div class="col-md-6" id="container_1">
-<h1>Chocolatier Academie</h1>
+<h1> <strong> Chocolatier Academie </strong> </h1>
 
 <h1> <hr> Chocolatier Academie Niveau 2 | BOL | 2-3 JR </hr></h1>
 <h2> <hr>Chocolatier Academie past bij jou </hr> </h2>
@@ -79,23 +79,23 @@
             <br>
         <ul>
             <li>
-                <p>Academie</p>
-                <p id="li_2">Chocolatier Academie</p><hr>
+                <hr><br><p>Academie :</p>
+                <p id="li_2">Chocolatier Academie</p><br><hr><br>
             </li>
             <li>
-                <p>locatie</p>
-                <p>Daltonlaan 300, Utrecht</p><hr>
+                <p>locatie :</p>
+                <p>Daltonlaan 300, Utrecht</p><br><hr><br>
             </li>
             <li>
-                <p>MHBO</p>
-                <p>Nee</p><hr>
+                <p>MHBO :</p>
+                <p>Nee</p><br><hr><br>
             </li>
             <li>
-                <p>versnellen</p>
-                <p>Je kunt deze opleiding versneld afronden.</p><hr>
+                <p>versnellen :</p>
+                <p>Je kunt deze opleiding versneld afronden.</p><br><hr><br>
             </li>
             <li>
-                <p>kosten</p>
+                <p>kosten :</p>
                 <p>Voor deze opleiding betaal je lesgeld op 1 augustus ouder 
                 bent dan 18 jaar. Verder moet je rekening houden met de aanschaf
                 van een laptop en kosten voor boeken en andere leermiddelen. Daarvoor
@@ -103,7 +103,7 @@
                 <br><br> Leerjaar 1: €320,-
                 <br><br> Leerjaar 2: €260,-
                 <br><br> Leerjaar 3: €20,-
-                <br><br> Laptop: €500,-</p>
+                <br><br> Laptop: €500,-</p><br><hr>
             </li>
         </ul>
             <br>
