@@ -1,0 +1,247 @@
+@import url("https://fonts.googleapis.com/css2?family=VT323&display=swap");
+$bgBlack: rgba(20, 20, 20, 1);
+$offWhite: #faf9f6;
+
+html,
+body {
+    height: 100vh;
+    width: 100%;
+    background-color: $bgBlack;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+main {
+    width: 100%;
+    height: 93%; // FIXME might be adjusted later on based on nav bar height.
+    position: absolute;
+    bottom: 0;
+}
+
+// css that is required for the javascript game.
+.game-container {
+    height: 100%;
+    width: 100%;
+    position: relative;
+    background-color: $offWhite;
+    background-image: url("/public/img/gameImg/landscape.png");
+    image-rendering: pixelated;
+    background-position: center;
+    background-size: cover;
+
+    display: flex;
+    flex-direction: column;
+
+    // sets the pixelart font
+    font-family: "VT323", monospace;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 36px;
+}
+
+// Game menu bar.
+.game-menu {
+    width: 100%;
+    height: 5%;
+    position: relative;
+    top: 0;
+    z-index: 10;
+    color: white;
+
+    display: flex;
+    flex-direction: row;
+    background-color: rgba(20, 20, 20, 0.75);
+
+    img {
+        object-fit: contain;
+        object-position: center;
+        height: 32px;
+        width: 32px;
+        image-rendering: pixelated;
+        // TODO set image size for upgrades.
+    }
+
+    #score {
+        align-self: center;
+        width: 20%;
+        &::before {
+            content: "Score: ";
+        }
+    }
+
+    #Counters {
+        width: 80%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    .pause {
+        height: 100%;
+        display: flex;
+        flex-direction: row;
+        gap: 3rem;
+        button {
+            font-family: "VT323", monospace;
+            font-size: 1em;
+            // padding: 0 0.1rem;
+        }
+    }
+}
+
+// the image and counter are set next to eachother
+// refers to all upgrade counters.
+.counter {
+    display: flex;
+    flex-direction: row;
+    gap: 0.5rem;
+    align-items: center;
+
+    p {
+        height: 100%;
+        align-self: center;
+    }
+
+    img {
+        object-fit: cover;
+    }
+    // images are the upgrade sprite.
+}
+
+// the cookie in the middle of the game.
+.cookie {
+    height: 25%;
+    aspect-ratio: 1/1;
+    image-rendering: pixelated;
+
+    //position centering
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+
+    button {
+        width: 100%;
+        height: 100%;
+        background-image: url("/public/img/gameImg/Cookie-01.png");
+        background-position: center;
+        background-size: cover;
+        border: none;
+        background-color: transparent;
+
+        cursor: pointer;
+
+        //nice animation thingy for the button click. :)
+        &:active {
+            scale: 0.95;
+        }
+    }
+}
+
+// list of upgrades
+.upgrades {
+    width: 10%;
+    flex-grow: 1;
+    margin: 4rem 0;
+    padding: 1rem;
+    background-color: rgba(20, 20, 20, 0.75);
+
+    display: flex;
+    flex-direction: column;
+    gap: 5%;
+
+    .upgrade {
+        display: flex !important;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        text-align: end;
+        cursor: pointer;
+        color: white;
+        p {
+            height: fit-content;
+            &::before {
+                content: "Cost: ";
+            }
+        }
+        img {
+            height: 64px;
+            width: 64px;
+        }
+    }
+}
+
+.overlay {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: rgba($bgBlack, 0.75);
+    z-index: 11;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#start {
+    font-size: 48px;
+    padding: 0 1rem;
+    border-radius: 8px;
+}
+
+.disabled {
+    display: none;
+}
+
+#start,
+#pauseBut,
+#reset {
+    appearance: none;
+    background-color: #2ea44f;
+    border: 1px solid rgba(27, 31, 35, 0.15);
+    border-radius: 6px;
+    box-shadow: rgba(27, 31, 35, 0.1) 0 1px 0;
+    color: #fff;
+    cursor: pointer;
+    display: inline-block;
+    font-weight: 600;
+    position: relative;
+    text-align: center;
+}
+
+#floor {
+    width: 100%;
+    height: clamp(10%, 15vw, 30%);
+    padding: 1rem;
+    position: relative;
+    z-index: 10;
+
+    .overlay {
+        position: absolute;
+        height: calc(100% - 1rem);
+        width: calc(100% - 1rem);
+        background: linear-gradient(to top, green 0%, transparent 30%);
+    }
+
+    #factory-Line {
+        // width: 50%;
+        height: 100%;
+        display: flex;
+
+        > img {
+            // aspect-ratio: 1/1;
+            height: 100%;
+
+            mask-image: linear-gradient(
+                to bottom,
+                rgba(0, 0, 0, 1) 85%,
+                rgba(0, 0, 0, 0) 100%
+            );
+        }
+    }
+}
