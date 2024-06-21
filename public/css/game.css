@@ -1,3 +1,208 @@
+@import url("https://fonts.googleapis.com/css2?family=VT323&display=swap");
+html,
+body {
+  height: 100vh;
+  width: 100%;
+  background-color: rgb(20, 20, 20);
+}
 
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+main {
+  width: 100%;
+  height: 93%;
+  position: absolute;
+  bottom: 0;
+}
+
+.game-container {
+  height: 100%;
+  width: 100%;
+  position: relative;
+  background-color: #faf9f6;
+  background-image: url("/public/img/gameImg/landscape.png");
+  image-rendering: pixelated;
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  font-family: "VT323", monospace;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 36px;
+}
+
+.game-menu {
+  width: 100%;
+  height: 5%;
+  position: relative;
+  top: 0;
+  z-index: 10;
+  color: white;
+  display: flex;
+  flex-direction: row;
+  background-color: rgba(20, 20, 20, 0.75);
+}
+.game-menu img {
+  object-fit: contain;
+  object-position: center;
+  height: 32px;
+  width: 32px;
+  image-rendering: pixelated;
+}
+.game-menu #score {
+  align-self: center;
+  width: 20%;
+}
+.game-menu #score::before {
+  content: "Score: ";
+}
+.game-menu #Counters {
+  width: 80%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+.game-menu .pause {
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  gap: 3rem;
+}
+.game-menu .pause button {
+  font-family: "VT323", monospace;
+  font-size: 1em;
+}
+
+.counter {
+  display: flex;
+  flex-direction: row;
+  gap: 0.5rem;
+  align-items: center;
+}
+.counter p {
+  height: 100%;
+  align-self: center;
+}
+.counter img {
+  object-fit: cover;
+}
+
+.cookie {
+  height: 25%;
+  aspect-ratio: 1/1;
+  image-rendering: pixelated;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+.cookie button {
+  width: 100%;
+  height: 100%;
+  background-image: url("/public/img/gameImg/Cookie-01.png");
+  background-position: center;
+  background-size: cover;
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+}
+.cookie button:active {
+  scale: 0.95;
+}
+
+.upgrades {
+  width: 10%;
+  flex-grow: 1;
+  margin: 4rem 0;
+  padding: 1rem;
+  background-color: rgba(20, 20, 20, 0.75);
+  display: flex;
+  flex-direction: column;
+  gap: 5%;
+}
+.upgrades .upgrade {
+  display: flex !important;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  text-align: end;
+  cursor: pointer;
+  color: white;
+}
+.upgrades .upgrade p {
+  height: fit-content;
+}
+.upgrades .upgrade p::before {
+  content: "Cost: ";
+}
+.upgrades .upgrade img {
+  height: 64px;
+  width: 64px;
+}
+
+.overlay {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(20, 20, 20, 0.75);
+  z-index: 11;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#start {
+  font-size: 48px;
+  padding: 0 1rem;
+  border-radius: 8px;
+}
+
+.disabled {
+  display: none;
+}
+
+#start,
+#pauseBut,
+#reset {
+  appearance: none;
+  background-color: #2ea44f;
+  border: 1px solid rgba(27, 31, 35, 0.15);
+  border-radius: 6px;
+  box-shadow: rgba(27, 31, 35, 0.1) 0 1px 0;
+  color: #fff;
+  cursor: pointer;
+  display: inline-block;
+  font-weight: 600;
+  position: relative;
+  text-align: center;
+}
+
+#floor {
+  width: 100%;
+  height: clamp(10%, 15vw, 30%);
+  padding: 1rem;
+  position: relative;
+  z-index: 10;
+}
+#floor .overlay {
+  position: absolute;
+  height: calc(100% - 1rem);
+  width: calc(100% - 1rem);
+  background: linear-gradient(to top, green 0%, transparent 30%);
+}
+#floor #factory-Line {
+  height: 100%;
+  display: flex;
+}
+#floor #factory-Line > img {
+  height: 100%;
+  mask-image: linear-gradient(to bottom, rgb(0, 0, 0) 85%, rgba(0, 0, 0, 0) 100%);
+}
 
 /*# sourceMappingURL=game.css.map */
