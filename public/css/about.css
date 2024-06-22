@@ -1,57 +1,30 @@
 #container-1 {
-  background: #74462E;
+  background: #74462e;
   border-radius: 0px 10px;
   margin-right: 34%;
   margin-left: 34%;
-  position: relative; 
+  position: relative;
   top: -20vh;
 }
-
 
 h1 {
   font-family: cursive;
   color: white;
-  font-size: 50px; 
+  font-size: 50px;
   size: 50px;
-  border-bottom: 0.2vh solid white; 
+  border-bottom: 0.2vh solid white;
 }
 
 p {
   margin-top: 10vh;
   margin-bottom: 10vh;
-  padding: 1vh;
-  color: white;
 }
-
-
 
 .map {
-  margin-top:20px; 
-  position: relative; 
-  top: 50px; 
-  width: 32%; 
+  margin-top: 20px;
+  position: relative;
+  top: 50px;
+  width: 32%;
 }
 
-h2, h3, h4 {
-  color: white;
-  font-family: cursive;
-}
-
-h2 {
-  font-size: 2.5em; /* Pas de grootte aan naar wens */
-  padding: 1vh;
-}
-
-h3 {
-  font-size: 2em; /* Pas de grootte aan naar wens */
-}
-
-h4 {
-  font-size: 1.5em; /* Pas de grootte aan naar wens */
-}
-
-
-
-
-
-
+/*# sourceMappingURL=about.css.map */

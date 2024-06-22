@@ -1,0 +1,33 @@
+html,
+body {
+  width: 100%;
+  height: 100%;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+}
+
+header,
+nav {
+  position: relative;
+  width: 100%;
+  height: fit-content;
+}
+header ul.nav-bar,
+nav ul.nav-bar {
+  position: relative !important;
+}
+
+section {
+  width: 100%;
+  height: auto;
+}
+
+h1 {
+  font-size: 48px !important;
+  text-align: center;
+}
+
+/*# sourceMappingURL=admin.css.map */
