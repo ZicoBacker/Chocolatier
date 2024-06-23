@@ -25,6 +25,10 @@ class ComposerStaticInitb3272b5cc342c2eacd3bf6fb43d99699
             'PhpOption\\' => 10,
             'PHPMailer\\PHPMailer\\' => 20,
         ),
+        'M' => 
+        array (
+            'Models\\' => 7,
+        ),
         'G' => 
         array (
             'GrahamCampbell\\ResultType\\' => 26,
@@ -59,6 +63,10 @@ class ComposerStaticInitb3272b5cc342c2eacd3bf6fb43d99699
         'PHPMailer\\PHPMailer\\' => 
         array (
             0 => __DIR__ . '/..' . '/phpmailer/phpmailer/src',
+        ),
+        'Models\\' => 
+        array (
+            0 => __DIR__ . '/../..' . '/app/models',
         ),
         'GrahamCampbell\\ResultType\\' => 
         array (

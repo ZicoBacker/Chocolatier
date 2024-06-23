@@ -26,6 +26,24 @@ switch ($uri) {
     case '/Game':
         echo $app->gameView();
         break;
+    case '/addIns':
+        echo $app->addIns();
+        break;
+    case '/LogIn':
+        echo $app->LogIn();
+        break;
+    case '/Logout':
+        echo $app->Logout();
+        break;
+    case '/AdminPanel':
+        echo $app->AdminPanel();
+        break;
+    case '/Contact':
+        echo $app->Contact();
+        break;
+    case '/AddContact':
+        echo $app->AddContact();
+        break;
     default:
         $app->defaultRedirect();
         break;

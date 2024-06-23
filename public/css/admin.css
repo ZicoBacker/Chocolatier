@@ -1,0 +1,67 @@
+html,
+body {
+  width: 100%;
+  height: 100%;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+body > .inner {
+  width: 100%;
+  height: 50%;
+  padding: 0 15%;
+  display: flex;
+  flex-direction: column;
+}
+
+header,
+nav {
+  position: relative;
+  width: 100%;
+  height: fit-content;
+}
+header ul.nav-bar,
+nav ul.nav-bar {
+  position: relative !important;
+}
+
+section {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+section#SubmissionTable,
+section #ContactTable {
+  height: 50%;
+}
+section > .innertable {
+  margin-top: 2rem;
+  overflow-y: auto;
+  height: 100%;
+}
+
+h1 {
+  font-size: 48px !important;
+  text-align: center;
+}
+
+h2 {
+  font-size: 26px !important;
+  text-align: center;
+}
+
+table {
+  border: 2px black solid;
+  width: 100%;
+}
+table > tr,
+table td,
+table th {
+  border: 2px black solid;
+  text-align: center;
+}
+
+/*# sourceMappingURL=admin.css.map */

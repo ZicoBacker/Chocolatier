@@ -1,0 +1,61 @@
+#loginEl {
+    display: none;
+    position: fixed;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(#000000, 0.5);
+    z-index: 1001;
+
+    &.active {
+        display: block;
+    }
+
+    > .inner {
+        position: relative;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, -50%);
+
+        width: 25%;
+
+        background-color: #ffecd4;
+
+        border-radius: 0.25rem;
+
+        > h3 {
+            text-align: center;
+            font-size: xx-large;
+        }
+        > #loginCloseBut {
+            position: absolute;
+            top: 0;
+            right: 0;
+            margin: 0.5rem 1rem;
+            cursor: pointer;
+        }
+    }
+}
+
+#loginForm {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0.5rem;
+
+    > label {
+        text-align: center;
+    }
+
+    > input {
+        margin-bottom: 1rem;
+        padding: 5px;
+        width: 75%;
+    }
+
+    #loginSubmit {
+        color: white;
+        font-weight: bold;
+        padding: 0.5rem 1rem;
+        border-radius: 0.25rem;
+    }
+}

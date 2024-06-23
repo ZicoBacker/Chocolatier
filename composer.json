@@ -1,8 +1,9 @@
 {
-    "name": "school/project-p2-school",
+    "name": "school/project-p4-school",
     "autoload": {
         "psr-4": {
-            "School\\": "./"
+            "School\\": "./",
+            "Models\\": "./app/models"
         }
     },
     "require": {
