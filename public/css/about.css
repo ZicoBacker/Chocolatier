@@ -12,28 +12,43 @@
   background: #BB7E5D;
   border: 0.2vh solid #BB7E5D;
   border-radius: 0px 10px;
-  margin-right: 134vh;
-  margin-left: 32vh;
+  margin-right: 135vh;
+  margin-left: 25vh;
   margin-top: -60vh;
   padding: 1vh;
   position: relative;
-  top: -20vh;
+  top: -40vh;
 }
 
 #login {
   background: rgba(245, 69, 0, 0.6);
   border: 0.8vh solid rgba(245, 69, 0, 0.6);
-  border-radius: 0px 15px;
+  border-radius: 0px 10px;
   margin-right: 0vh;
   margin-left: 0vh;
   position: relative;
-  top: 0vh;
+  top: -3.2vh;
+  width: 26vh;
+  left: -1.2vh;
+}
+
+#InsideLog {
+  position: relative;
+  top: -2vh;
+  color: white;
+}
+
+#Pencilicon {
+  display: flex;
+  position: relative;
+  left: 20.5vh;
+  top: 0.5vh;
 }
 
 h1 {
   font-family: cursive;
   color: white;
-  font-size: larger;
+  font-size: 6vh !important;
   border-bottom: 0.2vh solid white;
   margin-left: 2vh;
 }
@@ -41,13 +56,13 @@ h1 {
 h2 {
   font-family: cursive;
   color: white;
-  font-size: 5vh; /* Increased size */
+  font-size: 3vh !important;
   margin-left: 2vh;
 }
 
 h3 {
   font-family: cursive;
-  font-size: 4vh; /* Increased size */
+  font-size: 2vh !important;
   color: white;
   margin-left: 2vh;
 }
@@ -55,7 +70,7 @@ h3 {
 #reden {
   color: white;
   font-family: cursive;
-  font-size: large;
+  font-size: 3vh !important;
   padding: 1vh;
 }
 
@@ -79,13 +94,13 @@ h3 {
 
 h4 {
   font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
-  font-size: large;
+  font-size: 5vh !important;
 }
 
 h5 {
   font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
-  font-size: larger;
-  color: gray;
+  font-size: 4vh !important;
+  color: #2B1A12;
 }
 
 #AClocatie {
@@ -102,6 +117,54 @@ h5 {
   margin-right: 122vh;
   bottom: 52vh;
   height: 52vh;
+}
+
+.container-4 {
+  display: flex;
+  position: relative;
+  background-color: #74462E;
+  bottom: 64vh;
+  left: 64vh;
+  width: 100vh;
+  height: 60vh;
+}
+
+.SocialIMG {
+  display: flex;
+  position: relative;
+  height: 12vh;
+  width: auto;
+}
+
+.Fbimg {
+  display: flex;
+  position: relative;
+  bottom: 30vh;
+  left: 54vh;
+}
+
+.Instaimg {
+  display: flex;
+  position: relative;
+  bottom: 15vh;
+  left: 42vh;
+}
+
+.Tkimg {
+  display: flex;
+  position: relative;
+  bottom: 0vh;
+  left: 30vh;
+}
+
+h6 {
+  color: white;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  font-size: 5vh !important;
+}
+
+#volgSocials {
+  color: white;
 }
 
 /*# sourceMappingURL=about.css.map */
