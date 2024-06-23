@@ -1,103 +1,106 @@
-#container-1 {
+
+#container-1 { // Container 1 
   background: #74462E;
   border-radius: 0px 10px;
   margin-right: 34%;
   margin-left: 34%;
   position: relative; 
-  top: -20vh;
-  padding: 1vh;
+  top: -100px;
+  padding: 10px;
 }
 
 #container-2 {
   background: #BB7E5D;
   border: 0.2vh solid #BB7E5D;
   border-radius: 0px 10px;
-  margin-right: 135vh;
-  margin-left: 25vh;
-  margin-top: -60vh;
-  padding: 1vh;
+  margin-right: 73%;
+  margin-left: 13%;
+  margin-top: -40%;
+  padding: 8px;
   position: relative;
-  top: -40vh;
+  top: -400px;
 }
 
 #login {
   background: #F5450099;
-  border: 0.8vh solid #F5450099;
+  border: 8px solid #F5450099;
   border-radius: 0px 10px;
-  margin-right: 0vh;
-  margin-left: 0vh;
+  margin-right: 0px;
+  margin-left: 0px;
   position: relative;
-  top: -3.2vh;
-  width: 26vh;
-  left: -1.2vh;
+  top: -25px;
+  width: 200px;
+  left: -10px;
 }
 
 #InsideLog {
   position: relative;
-  top: -2vh;
+  top: -20px;
   color:white;
 }
 #Pencilicon {
   display: flex;
   position: relative;
-  left:20.5vh;
-  top: 0.5vh;
+  left:90%;
+  top: 5px;
+  z-index: 1;
 }
 
 h1 {
   font-family: cursive;
   color: white;
-  font-size: 6vh !important;
-  border-bottom: 0.2vh solid white; 
-  margin-left: 2vh;
+  font-size: 45px !important;
+  border-bottom: 2px solid white; 
+  margin-left: 20px;
 }
 
 h2 {
   font-family: cursive;
   color: white;
-  font-size: 3vh !important;
-  margin-left: 2vh;
+  font-size: 30px !important;
+  margin-left: 20px;
 }
 
 h3 {
   font-family: cursive;
-  font-size: 2vh !important; 
+  font-size: 20px !important; 
   color: white;
-  margin-left: 2vh;
+  margin-left: 20px;
 }
 
 #reden {
   color: white;
   font-family: cursive;
-  font-size: 3vh !important; 
-  padding: 1vh;
+  font-size: 30px !important; 
+  padding: 10px;
 }
 
 .Map {
   display: flex;
   justify-content: center;
   position: relative; 
-  margin-top: 13vh;
-  margin-left: 63vh;
-  width: 100vh; 
+  margin-top: 20%;
+  margin-left: 34%;
+  width: 66%; 
   height: auto; 
+  z-index: 1;
 }
 
 #ACPtext{
-  margin-top: 2vh;
-  margin-bottom: 2vh;
+  margin-top: 20px;
+  margin-bottom: 20px;
   color: white;
-  margin-right: 2vh;
-  margin-left: 2vh;
+  margin-right: 20px;
+  margin-left: 20px;
 }
 
 h4 {
 font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-font-size: 5vh !important;
+font-size: 50px !important;
 }
 h5{
 font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-font-size: 4vh !important;
+font-size: 50px !important;
 color :#2B1A12;
 
 }
@@ -113,55 +116,104 @@ color :#2B1A12;
   background: #BB7E5D;
   border: #BB7E5D;
   border-radius: 0px 10px 0px;
-  margin-right: 122vh;
-  bottom: 52vh;
-  height: 52vh;
+  margin-right: 939px;
+  bottom: 515px;
+  height: 520px;
 }
 
 .container-4{
+  padding: 10px;
   display: flex;
   position: relative;
   background-color: #74462E;
-  bottom:64vh;
-  left: 64vh;
-  width: 100vh;
-  height: 60vh;
+  bottom: 693px;
+  left: 484px;
+  width: 933px;
+  height: 650px;
 }
 
 .SocialIMG{
   display: flex;
   position: relative;
-  height: 12vh;
+  height: 99px;
   width: auto;
+  z-index: 1;
 }
+
 
 .Fbimg {
 display: flex;
 position: relative;
-bottom: 30vh;
-left: 54vh
+bottom: 430px;
+left: 560px;
+z-index: 1;
 }
 
 .Instaimg {
-  display: flex;
+display: flex;
 position: relative;
-bottom: 15vh;
-left: 42vh
+bottom: 280px;
+left: 460px;
+z-index: 1
 }
 
 .Tkimg {
   display: flex;
   position:relative;
-  bottom: 0vh;
-  left: 30vh
+  bottom: 130px;
+  left: 360px;
+  z-index: 1;
 }
 
 h6 {
+  position: relative;
   color: white;
   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-  font-size: 5vh !important;
+  font-size: 60px !important;
+  left: 20px;
 }
 
 #volgSocials {
+  position: relative;
+  left: 20px;
+  top: 20px;
 color: white;
+font-size: 30px !important;
+}
+
+.Borderinvis-1 {
+  position: relative;
+  border-bottom: 1px solid white;
+  top: 160px;
+  left: 50px;
+  width: 700px;
+}
+
+.Borderinvis-2 {
+  position: relative;
+  border-bottom: 1px solid white;
+  top: 310px;
+  left: 50px;
+  width: 700px;
+}
+
+.Borderinvis-3 {
+  position: relative;
+  border-bottom: 1px solid white;
+  top: 460px;
+  left: 50px;
+  width: 700px;
+}
+
+#facebookImgTxt {
+
+
+}
+
+#instagramImgTxt {
+
+}
+
+#TiktokImgTxt {
+
 }

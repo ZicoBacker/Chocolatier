@@ -61,17 +61,28 @@
     </div>
 </div>
 
+<div>
+    <p id="facebookImgTxt">Facebook</p>
+    <p id="instagramImgTxt">Instagram</p>
+    <p id="TiktokImgTxt">TikTok</p>
+</div>
 <div class="SocialIMG">
-    <img src="/img/facebook-icon.png" class="Fbimg" alt="MapImage">
+    <img src="/img/facebook-icon.png" class="Fbimg" alt="MapImage"> 
     <img src="/img/insta-icon.png" class="Instaimg" alt="MapImage">
     <img src="/img/tiktok-icon.png" class="Tkimg" alt="MapImage">
+    
 </div>
 <div class=container-4>
     <div class="row">
         <div class="cold-md-8">
             <h6>Volg ons</h6>
             <p id="volgSocials">Je kan ons volgen op de volgende socials</p>
-
+            <div class="Borderinvis-1">    
+            </div>
+            <div class="Borderinvis-2">
+            </div>
+            <div class="Borderinvis-3">
+            </div>
         </div>
     </div>
 </div>
