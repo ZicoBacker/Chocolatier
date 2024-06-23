@@ -24,4 +24,14 @@ class Admin
         $this->db->query("SELECT * FROM Contact");
         return $this->db->resultSet();
     }
+
+    public function AddContact(string $email, string $desc): bool
+    {
+        $this->db->query("INSERT INTO Contact(Email,Beschrijving) VALUES (:email,:Beschrijving)");
+
+        $this->db->bind(":email", $email);
+        $this->db->bind(":Beschrijving", $desc);
+
+        return $this->db->execute();
+    }
 }

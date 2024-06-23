@@ -2,12 +2,13 @@
     <?php require_once __DIR__ . '/_loginForm.php'; ?>
     <nav>
         <ul class='nav-bar'>
-            <li class='logo'><a href='/Game'><img src='/img/logo-nav.png' /></a></li>
+            <li id="logo" class='logo'><a href='/Game'><img src='/img/logo-nav.png' /></a></li>
             <input type='checkbox' id='check' />
             <span class="menu">
                 <li><a class="Links" href="/">Home</a></li>
                 <li><a class="Links" href="/Academie">Info Academie</a></li>
                 <li><a class="Links" href="/About">Info School</a></li>
+                <li><a class="Links" href="/Contact">Contact us</a></li>
                 <?php if (isset($_SESSION['user'])) : ?>
                     <li><a class="Links" href="/AdminPanel">Dashboard</a></li>
                     <li><a class="button-nav" href="/Logout" id="logoutElBut">Logout</a></li>

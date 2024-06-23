@@ -3,14 +3,11 @@
 <body>
     <div class="inner">
         <section id="userInfo">
-            <h1>User: <?php // echo $title; 
-                        ?></h1>
-            <div class="userData"></div>
+            <h1>User: <?php echo $title; ?></h1>
         </section>
         <section id="SubmissionTable">
             <h2>Inscrhijvingen:</h2>
             <div class="innertable">
-
                 <table>
                     <tr>
                         <th>ID</th>

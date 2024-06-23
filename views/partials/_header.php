@@ -20,6 +20,8 @@
     <link rel="stylesheet" href="/css/game.css"> <?php endif; ?>
   <?php if ($_SERVER['REQUEST_URI'] === '/AdminPanel') : ?>
     <link rel="stylesheet" href="/css/Admin.css"> <?php endif; ?>
+  <?php if ($_SERVER['REQUEST_URI'] === '/Contact') : ?>
+    <link rel="stylesheet" href="/css/ContactUs.css"> <?php endif; ?>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Shadows+Into+Light&display=swap" rel="stylesheet">

@@ -1,0 +1,77 @@
+html,
+body {
+    width: 100%;
+    height: 100%;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    > .inner {
+        width: 100%;
+        height: 50%;
+        padding: 0 15%;
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+header,
+nav {
+    position: relative;
+    width: 100%;
+    height: fit-content;
+    ul.nav-bar {
+        position: relative !important;
+    }
+}
+
+h1 {
+    font-size: 48px !important;
+    text-align: center;
+}
+
+.formdiv {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 50%;
+
+    > input,
+    textarea {
+        margin-bottom: 3rem;
+        padding: 5px;
+        border-radius: 0.25rem;
+    }
+
+    #contactSubmit {
+        color: white;
+        font-weight: bold;
+        padding: 0.5rem 1rem;
+        border-radius: 0.25rem;
+    }
+}
+
+#Beschrijving {
+    width: 100%;
+    height: 20vh;
+    padding: 5px;
+    vertical-align: top;
+}
+
+.green {
+    color: green !important;
+}
+
+.red {
+    color: red !important;
+}

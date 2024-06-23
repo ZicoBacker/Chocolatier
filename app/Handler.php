@@ -60,8 +60,9 @@ final class Handler extends BaseHandler
 
     public function addIns()
     {
-        if (!parent::isPost()) {
-            exit;
+        if (!$this->isPost()) {
+            $this->redirect('/index');
+            return "";
         }
         $this->db = new Login();
 
@@ -74,6 +75,24 @@ final class Handler extends BaseHandler
         $mailer = new Mail($_POST['email'], $_POST['firstname']);
         $mailer->body($_POST['firstname'], "Inschrijving", null, $_POST);
         return json_encode($mailer->send());
+    }
+
+    public function AddContact()
+    {
+        if (!$this->isPost()) {
+            $this->redirect('/index');
+            return "";
+        }
+        $this->db = new Admin();
+
+        if ($this->db->AddContact($_POST['email'], $_POST['Beschrijving'])) {
+            $mail = new Mail($_POST['email']);
+            $mail->body("contact opnemen met MBOUtrecht", 'contactverzoek', null, ['question' => $_POST['Beschrijving']]);
+            $mail->send();
+            echo json_encode(true);
+        } else {
+            echo json_encode(false);
+        }
     }
 
     public function AdminPanel(): string
@@ -96,6 +115,10 @@ final class Handler extends BaseHandler
     // gets userdata from database and attemps to log in user. returns true upon sucession and false upon failure.
     public function LogIn()
     {
+        if (!$this->isPost()) {
+            $this->redirect('/index');
+            return "";
+        }
         $this->db = new Login();
         $user = $this->db->attemptLogin($_POST['username']);
         if (password_verify($_POST['password'], $user->pass)) {
@@ -116,6 +139,11 @@ final class Handler extends BaseHandler
         } catch (Exception $e) {
             echo json_encode(false);
         }
+    }
+
+    public function Contact()
+    {
+        return $this->render('contact');
     }
 
     private function createSubmissionTable()

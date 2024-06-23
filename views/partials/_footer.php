@@ -30,5 +30,7 @@
 <?php else : ?>
     <script src="/public/js/LoginForm.js"></script>
 <?php endif; ?>
+<script src="/public/js/secretGame.js"></script>
+
 
 </html>

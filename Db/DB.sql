@@ -27,4 +27,6 @@ pass VARCHAR(60) NOT NULL,
 PRIMARY KEY(Id)
 );
 
+-- INSERT INTO Inschrijving(bsn,email,firstname,lastname,birthdate,phone) VALUES ('1234567890','johan@gmail.com','johan','terwij','2023-01-01','+31 6 21890808');
+
 INSERT INTO Admin(username,pass) VALUES("Admin","$2y$10$O3Vyv..70DOJCrlgj9D/TOq1stA9ungbOCmBU/zbIKcYe4.X0aED.");

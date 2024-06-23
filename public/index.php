@@ -38,6 +38,12 @@ switch ($uri) {
     case '/AdminPanel':
         echo $app->AdminPanel();
         break;
+    case '/Contact':
+        echo $app->Contact();
+        break;
+    case '/AddContact':
+        echo $app->AddContact();
+        break;
     default:
         $app->defaultRedirect();
         break;
