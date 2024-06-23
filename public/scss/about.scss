@@ -1,15 +1,14 @@
 #container-1 {
-    background: #74462e;
-    border-radius: 0px 10px;
-    margin-right: 34%;
-    margin-left: 34%;
-    position: relative;
-    top: -20vh;
-    padding: 1vh;
+  background: #74462E;
+  border-radius: 0px 10px;
+  margin-right: 34%;
+  margin-left: 34%;
+  position: relative; 
+  top: -20vh;
+  padding: 1vh;
 }
 
 #container-2 {
-<<<<<<< HEAD
   background: #BB7E5D;
   border: 0.2vh solid #BB7E5D;
   border-radius: 0px 10px;
@@ -72,78 +71,27 @@ h3 {
   font-family: cursive;
   font-size: 3vh !important; 
   padding: 1vh;
-=======
-    background: #bb7e5d;
-    border: 0.2vh solid #bb7e5d;
-    border-radius: 0px 10px;
-    margin-right: 134vh;
-    margin-left: 32vh;
-    margin-top: -60vh;
-    padding: 1vh;
-    position: relative;
-    top: -20vh;
-}
-
-#login {
-    background: #f5450099;
-    border: 0.8vh solid #f5450099;
-    border-radius: 0px 15px;
-    margin-right: 0vh;
-    margin-left: 0vh;
-    position: relative;
-    top: 0vh;
-}
-
-h1 {
-    font-family: cursive;
-    color: white;
-    font-size: larger;
-    border-bottom: 0.2vh solid white;
-    margin-left: 2vh;
-}
-
-h2 {
-    font-family: cursive;
-    color: white;
-    font-size: 5vh; /* Increased size */
-    margin-left: 2vh;
-}
-
-h3 {
-    font-family: cursive;
-    font-size: 4vh; /* Increased size */
-    color: white;
-    margin-left: 2vh;
-}
-
-#reden {
-    color: white;
-    font-family: cursive;
-    font-size: large;
-    padding: 1vh;
->>>>>>> 65c57defcb181973b5ba33e4de76c295f9e9fe95
 }
 
 .Map {
-    display: flex;
-    justify-content: center;
-    position: relative;
-    margin-top: 14vh;
-    margin-left: 63vh;
-    width: 100vh; /* Adjust the width as needed */
-    height: auto; /* This maintains the aspect ratio */
+  display: flex;
+  justify-content: center;
+  position: relative; 
+  margin-top: 13vh;
+  margin-left: 63vh;
+  width: 100vh; 
+  height: auto; 
 }
 
-#ACPtext {
-    margin-top: 2vh;
-    margin-bottom: 2vh;
-    color: white;
-    margin-right: 2vh;
-    margin-left: 2vh;
+#ACPtext{
+  margin-top: 2vh;
+  margin-bottom: 2vh;
+  color: white;
+  margin-right: 2vh;
+  margin-left: 2vh;
 }
 
 h4 {
-<<<<<<< HEAD
 font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 font-size: 5vh !important;
 }
@@ -152,23 +100,13 @@ font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 font-size: 4vh !important;
 color :#2B1A12;
 
-=======
-    font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
-    font-size: large;
-}
-h5 {
-    font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
-    font-size: larger;
-    color: gray;
->>>>>>> 65c57defcb181973b5ba33e4de76c295f9e9fe95
 }
 
-#AClocatie {
-    color: black;
+#AClocatie{
+  color: black;
 }
 
 .container-3 {
-<<<<<<< HEAD
   display: flex;
   justify-content: left;
   position: relative;
@@ -227,15 +165,3 @@ h6 {
 #volgSocials {
 color: white;
 }
-=======
-    display: flex;
-    justify-content: left;
-    position: relative;
-    background: #bb7e5d;
-    border: #bb7e5d;
-    border-radius: 0px 10px 0px;
-    margin-right: 122vh;
-    bottom: 52vh;
-    height: 52vh;
-}
->>>>>>> 65c57defcb181973b5ba33e4de76c295f9e9fe95
