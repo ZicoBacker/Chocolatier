@@ -1,0 +1,10 @@
+.imgbanner {
+    height: 50vh;
+    object-fit: cover;
+    object-position: 50% 50%;
+    width: 100%;
+
+    &.dani {
+        object-position: 50% 15% !important;
+    }
+}

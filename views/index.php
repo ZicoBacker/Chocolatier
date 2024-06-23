@@ -2,12 +2,12 @@
 
 <div class="bg-creme">
     <div class="relative ">
-        <img class="w-full" src="img/Cookie-banner-index.jpg" alt="Cookie Banner">
-        <h1 class="absolute inset-0 flex items-center justify-center text-white text-7xl font-strait">Opleiding tot Koekjes bakker</h1>
+        <img class="w-full imgbanner dani" src="img/daniStuff/banner-4.png" alt="Cookie Banner">
+        <h1 class="absolute inset-0 flex items-center justify-center text-white text-7xl font-strait">Opleiding tot Chocolatier</h1>
     </div>
 
     <div class="w-full p-14 font-strait bg-creme">
-        <h1 class="text-6xl font-bold py-10 mb-16 text-center">Is koekjes bakken iets voor jou?</h1>
+        <h1 class="text-6xl font-bold py-10 mb-16 text-center">Is Chocolatier iets voor jou?</h1>
         <div class="grid grid-cols-2 md:grid-cols-4 gap-6 items-start">
             <div class="col-span-3">
                 <ul class="list-none space-y-16 text-4xl">
@@ -26,10 +26,10 @@
                 </ul>
             </div>
             <div class="col-span-1">
-                <img src="img/Dani.png" class="w-5/6 rounded-xl">
+                <img src="img/daniStuff/banner-3.jpg" class="w-5/6 rounded-xl">
             </div>
         </div>
-        <p class="mt-10 text-3xl px-6 py-4">Als je op zoek bent naar een opleiding in de wereld van het bakken van koekjes, dan is de opleiding Assistent Bakker niveau 2 echt iets voor jou. Studenten Assistent Bakker beginnen in het eerste jaar samen met studenten Zelfstandig Werkend Bakker niveau 3. Dit biedt je een unieke kans om snel vooruit te gaan en je vaardigheden te verdiepen. Bovendien krijg je de ruimte om je eigen ambitie, verantwoordelijkheidsgevoel en vakmanschap te ontwikkelen.</p>
+        <p class="mt-10 text-3xl px-6 py-4">Als je op zoek bent naar een opleiding in de wereld van chocolatiers, dan is de opleiding chocolatier niveau 2 echt iets voor jou. Studenten chocolatier beginnen in het eerste jaar samen met studenten Zelfstandig Werkend Bakker niveau 3. Dit biedt je een unieke kans om snel vooruit te gaan en je vaardigheden te verdiepen. Bovendien krijg je de ruimte om je eigen ambitie, verantwoordelijkheidsgevoel en vakmanschap te ontwikkelen.</p>
     </div>
 
     <div class="w-11/12 p-14 pr-0 mt-8 text-center-left float-right font-strait ">
@@ -100,10 +100,10 @@
     </div>
 
     <div class="w-full p-8 pr-0 mt-6 text-center-left float-right font-strait bg-creme">
-        <h2 class="text-5xl font-bold pl-4 py-4">Wat kun je na de opleiding Gespecialiseerd Kok</h2>
+        <h2 class="text-5xl font-bold pl-4 py-4">Wat kun je na de opleiding chocolatier</h2>
         <div class="flex items-center">
             <div>
-                <p class="mt-4 text-4xl px-4 py-4">Na afronding van de opleiding tot Koekjesbakker niveau 2 ben je volledig uitgerust met de essentiële vaardigheden en kennis om diverse soorten koekjes van hoge kwaliteit te bakken. Je bent bekend met recepten, ingrediënten en baktechnieken, en je hebt ervaring opgedaan in een professionele bakkerijomgeving. Als assistent-koekjesbakker ben je klaar om te werken in bakkerijen en voedselproductiebedrijven. Bovendien biedt deze opleiding een stevige basis voor verdere groei en specialisatie binnen de bakkerijsector.</p>
+                <p class="mt-4 text-4xl px-4 py-4">Na afronding van de opleiding tot chocolatier niveau 2 ben je volledig uitgerust met de essentiële vaardigheden en kennis om diverse soorten koekjes van hoge kwaliteit te bakken. Je bent bekend met recepten, ingrediënten en baktechnieken, en je hebt ervaring opgedaan in een professionele bakkerijomgeving. Als chocolatier ben je klaar om te werken in bakkerijen en voedselproductiebedrijven. Bovendien biedt deze opleiding een stevige basis voor verdere groei en specialisatie binnen de bakkerijsector.</p>
             </div>
         </div>
     </div>
