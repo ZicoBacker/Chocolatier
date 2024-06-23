@@ -18,4 +18,10 @@ class Admin
         $this->db->query("SELECT * FROM Inschrijving ORDER BY firstname");
         return $this->db->resultSet();
     }
+
+    public function GetContacts()
+    {
+        $this->db->query("SELECT * FROM Contact");
+        return $this->db->resultSet();
+    }
 }

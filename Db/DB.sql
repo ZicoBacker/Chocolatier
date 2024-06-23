@@ -1,5 +1,7 @@
 CREATE DATABASE Chocolatier;
 USE Chocolatier;
+-- DROP TABLE Admin;
+
 CREATE TABLE Inschrijving(
 Id INT NOT NULL AUTO_INCREMENT,
 bsn INT NOT NULL,
@@ -24,8 +26,5 @@ username VARCHAR(128) NOT NULL,
 pass VARCHAR(60) NOT NULL,
 PRIMARY KEY(Id)
 );
-
-select * from inschrijving;
-delete from Inschrijving where Id > 0;
 
 INSERT INTO Admin(username,pass) VALUES("Admin","$2y$10$O3Vyv..70DOJCrlgj9D/TOq1stA9ungbOCmBU/zbIKcYe4.X0aED.");

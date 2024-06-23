@@ -83,9 +83,13 @@ final class Handler extends BaseHandler
             parent::redirect('index');
         }
         $this->db = new Admin();
+        $submissionRows = $this->createSubmissionTable();
+        $contactTable = $this->createContactTable();
 
         return $this->render('admin', [
-            'title' => $_SESSION['user']
+            'title' => $_SESSION['user'],
+            'subTable' => $submissionRows,
+            'contactTable' => $contactTable
         ]);
     }
 
@@ -93,7 +97,6 @@ final class Handler extends BaseHandler
     public function LogIn()
     {
         $this->db = new Login();
-        // $pass = $_POST['password'];        
         $user = $this->db->attemptLogin($_POST['username']);
         if (password_verify($_POST['password'], $user->pass)) {
             $_SESSION['user'] = $user->username;
@@ -113,5 +116,58 @@ final class Handler extends BaseHandler
         } catch (Exception $e) {
             echo json_encode(false);
         }
+    }
+
+    private function createSubmissionTable()
+    {
+        $results = $this->db->GetSubmissions();
+        $Rows = "";
+        //if there are not submissions, fill in with "geen inschijving"
+        if (count($results) == 0) {
+            $Rows = "<tr>
+            <td>Geen inschrijving</td>
+            <td>Geen inschrijving</td>
+            <td>Geen inschrijving</td>
+            <td>Geen inschrijving</td>
+            <td>Geen inschrijving</td>
+            <td>Geen inschrijving</td>
+            </tr>";
+        } else {
+            //fill table if there are submissions.
+            foreach ($results as $key => $submission) {
+                $Rows .= "<tr>
+                <td>{$submission->Id}</td>
+                <td>{$submission->email}</td>
+                <td>{$submission->firstname} {$submission->lastname}</td>
+                <td>{$submission->birthdate}</td>
+                <td>{$submission->bsn}</td>
+                <td>{$submission->phone}</td>
+            </tr>";
+            }
+        }
+        return $Rows;
+    }
+
+    private function createContactTable()
+    {
+        $results = $this->db->GetContacts();
+        $Rows = "";
+
+        if (count($results) == 0) {
+            $Rows = "<tr>
+            <td>Geen vragen</td>
+            <td>Geen vragen</td>
+            <td>Geen vragen</td>
+            </tr>";
+        } else {
+            foreach ($results as $key => $contact) {
+                $Rows .= "<tr>
+            <td>{$contact->Id}</td>
+            <td>{$contact->Email}</td>
+            <td>{$contact->Beschrijving}</td>
+            </tr>";
+            }
+        }
+        return $Rows;
     }
 }
