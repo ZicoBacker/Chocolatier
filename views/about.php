@@ -62,11 +62,7 @@
 </div>
 </div>
 </div>
-<div>
-    <p id="facebookImgTxt">Facebook</p>
-    <p id="instagramImgTxt">Instagram</p>
-    <p id="TiktokImgTxt">TikTok</p>
-</div>
+
 <div class="SocialIMG">
     <img src="/img/facebook-icon.png" class="Fbimg" alt="MapImage"> 
     <img src="/img/insta-icon.png" class="Instaimg" alt="MapImage">

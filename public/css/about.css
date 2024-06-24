@@ -218,24 +218,6 @@ h6 {
   width: 700px;
 }
 
-#facebookImgTxt {
-  position: relative;
-  color: black;
-  z-index: 1;
-}
-
-#instagramImgTxt {
-  position: relative;
-  color: black;
-  z-index: 1;
-}
-
-#TiktokImgTxt {
-  position: relative;
-  color: black;
-  z-index: 1;
-}
-
 .SocialArrow-1 {
   position: relative;
   bottom: 1160px;
