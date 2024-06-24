@@ -101,12 +101,27 @@ h4 {
 
 h5 {
   font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
-  font-size: 50px !important;
+  font-size: 40px !important;
   color: #2B1A12;
 }
 
 #AClocatie {
+  position: relative;
   color: black;
+  top: 70px;
+  font-size: 20px !important;
+}
+
+#ACemail {
+  font-size: 20px !important;
+  position: relative;
+  top: 120px;
+}
+
+#ACnummer {
+  font-size: 20px !important;
+  position: relative;
+  top: 180px;
 }
 
 .container-3 {
@@ -115,10 +130,9 @@ h5 {
   position: relative;
   background: #BB7E5D;
   border: #BB7E5D;
-  border-radius: 0px 10px 0px;
   margin-right: 939px;
-  bottom: 515px;
-  height: 520px;
+  bottom: 485px;
+  height: 490px;
 }
 
 .container-4 {
@@ -126,10 +140,10 @@ h5 {
   display: flex;
   position: relative;
   background-color: #74462E;
-  bottom: 693px;
-  left: 484px;
-  width: 933px;
-  height: 650px;
+  bottom: 670px;
+  left: 483.8px;
+  width: 939px;
+  height: 640px;
 }
 
 .SocialIMG {
@@ -143,7 +157,7 @@ h5 {
 .Fbimg {
   display: flex;
   position: relative;
-  bottom: 430px;
+  bottom: 400px;
   left: 560px;
   z-index: 1;
 }
@@ -151,7 +165,7 @@ h5 {
 .Instaimg {
   display: flex;
   position: relative;
-  bottom: 280px;
+  bottom: 250px;
   left: 460px;
   z-index: 1;
 }
@@ -159,7 +173,7 @@ h5 {
 .Tkimg {
   display: flex;
   position: relative;
-  bottom: 130px;
+  bottom: 100px;
   left: 360px;
   z-index: 1;
 }
@@ -202,6 +216,42 @@ h6 {
   top: 460px;
   left: 50px;
   width: 700px;
+}
+
+#facebookImgTxt {
+  position: relative;
+  color: black;
+  z-index: 1;
+}
+
+#instagramImgTxt {
+  position: relative;
+  color: black;
+  z-index: 1;
+}
+
+#TiktokImgTxt {
+  position: relative;
+  color: black;
+  z-index: 1;
+}
+
+.SocialArrow-1 {
+  position: relative;
+  bottom: 1160px;
+  left: 1200px;
+}
+
+.SocialArrow-2 {
+  position: relative;
+  bottom: 1120px;
+  left: 1200px;
+}
+
+.SocialArrow-3 {
+  position: relative;
+  bottom: 1090px;
+  left: 1200px;
 }
 
 /*# sourceMappingURL=about.css.map */

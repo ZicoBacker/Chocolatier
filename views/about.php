@@ -60,7 +60,8 @@
         </div>
     </div>
 </div>
-
+</div>
+</div>
 <div>
     <p id="facebookImgTxt">Facebook</p>
     <p id="instagramImgTxt">Instagram</p>
@@ -70,8 +71,9 @@
     <img src="/img/facebook-icon.png" class="Fbimg" alt="MapImage"> 
     <img src="/img/insta-icon.png" class="Instaimg" alt="MapImage">
     <img src="/img/tiktok-icon.png" class="Tkimg" alt="MapImage">
-    
 </div>
+
+
 <div class=container-4>
     <div class="row">
         <div class="cold-md-8">
@@ -86,4 +88,10 @@
         </div>
     </div>
 </div>
+<div class="SocialArrows">
+<img src="/img/ArrowSocials.png" class="SocialArrow-1" alt="MapImage">
+<img src="/img/ArrowSocials.png" class="SocialArrow-2" alt="MapImage">
+<img src="/img/ArrowSocials.png" class="SocialArrow-3" alt="MapImage">
+</div>
+
 <?php require_once __DIR__ . '/partials/_footer.php'; ?>
